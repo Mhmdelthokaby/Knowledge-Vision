@@ -1,0 +1,23 @@
+<section  class="my-5 py-5">
+    <div class="container">
+        <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="" *ngFor="let book of books">
+            <div class="box category-item card d-flex justify-content-between h-100 border-1">
+              <div class="ribbon"><span>أطلس</span></div>
+              <img [src]="book.image" class="card-img-top w-100 h-75" alt="{{ book.title }}">
+              <div class="d-flex justify-content-end flex-column  px-2 m-0  vstack gap-2">
+                <h5 class="card-title m-0 p-0 fs-4 lead text-end fw-bold">{{ book.title }}</h5>
+                <h5 class="fs-5 text-end text-dark-emphasis">أحمد زويل</h5>
+              </div>
+              <div class="d-flex justify-content-between p-2">
+                <a [href]="book.url" target="_blank" class="text-danger fs-5 text-decoration-none">YouTube</a>
+                <a [href]="book.url" target="_blank" class="text-success fs-5 text-decoration-none">اقرأ</a>
+              </div>
+            </div>
+    
+    
+    
+          </div>
+        </div>
+      </div>
+</section>

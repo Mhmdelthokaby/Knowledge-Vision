@@ -1,0 +1,87 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home">
+      <img src="assets/images/logo.png" class="w-25 p-0" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav flex-lg-row-reverse ms-auto mb-1 mb-lg-0 fs-5">
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/home"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            الرئيسية
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/atlas"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            أطالس
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/extracts"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            مستخلصات
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/dictionaries"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            معاجم
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/encyclopedias"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            موسوعات
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/bibliography"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            بيلوجراف
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/yearbooks"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            الكتب السنوية
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/translations"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            تراجم
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/summaries"
+             routerLinkActive="text-success active border-bottom border-success"
+             [routerLinkActiveOptions]="{ exact: true }">
+            موجزات ارشادية
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

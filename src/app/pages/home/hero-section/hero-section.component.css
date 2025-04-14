@@ -1,0 +1,11 @@
+.hero-section{
+    background-color: #f3f1ed !important;
+    background-image: url('/assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.custom-shadow{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
